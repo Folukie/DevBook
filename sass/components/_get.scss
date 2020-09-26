@@ -12,6 +12,7 @@
         @include respond(phone) {
             grid-template-columns: 1fr;
             margin:0 4rem;
+            grid-gap: 4rem;
         }
 
     }

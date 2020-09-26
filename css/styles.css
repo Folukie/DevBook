@@ -96,7 +96,7 @@ body {
   @media (max-width: 37.5em) {
     .landing {
       margin: 0;
-      height: 150vh; } }
+      height: 180vh; } }
   .landing__row {
     display: flex; }
     @media (max-width: 37.5em) {
@@ -249,7 +249,8 @@ body {
     @media (max-width: 37.5em) {
       .get__grid {
         grid-template-columns: 1fr;
-        margin: 0 4rem; } }
+        margin: 0 4rem;
+        grid-gap: 4rem; } }
   .get__icon {
     color: #ed6524;
     font-size: 5rem;
