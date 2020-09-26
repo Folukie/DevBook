@@ -5,7 +5,7 @@
     height: 110vh;
     padding: 5rem 0;
     @include respond (phone){
-       height:100vh;
+       height:110vh;
     }
 
     &__img {
@@ -44,7 +44,7 @@
             color: white;
             margin: 0 1rem;
             @include respond (phone){
-                margin:.5rem;
+                margin:.7rem;
             }
 
         }
@@ -54,7 +54,7 @@
             width: 50%;
             @include respond (phone){
                 width:100%;
-                margin:3rem 15rem;
+                margin:3rem 10rem;
             }
 
         }

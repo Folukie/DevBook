@@ -405,7 +405,7 @@ body {
   padding: 5rem 0; }
   @media (max-width: 37.5em) {
     .author {
-      height: 100vh; } }
+      height: 110vh; } }
   .author__img {
     width: 15rem;
     margin-bottom: 5.4rem; }
@@ -434,14 +434,14 @@ body {
       margin: 0 1rem; }
       @media (max-width: 37.5em) {
         .author__icon-link {
-          margin: .5rem; } }
+          margin: .7rem; } }
     .author__icon-row {
       margin: 4rem 53rem 0;
       width: 50%; }
       @media (max-width: 37.5em) {
         .author__icon-row {
           width: 100%;
-          margin: 3rem 15rem; } }
+          margin: 3rem 10rem; } }
 
 .preview {
   background-color: #f6f8fc;
