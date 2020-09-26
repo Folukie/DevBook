@@ -44,7 +44,7 @@
             color: white;
             margin: 0 1rem;
             @include respond (phone){
-                margin:.4rem;
+                margin:0;
             }
 
         }

@@ -35,7 +35,7 @@ body {
     width: 3%; }
     @media (max-width: 37.5em) {
       .navbar__img {
-        width: 6%; } }
+        width: 9%; } }
   .navbar__brand {
     color: #1c1e2e;
     font-size: 3rem;
@@ -92,11 +92,11 @@ body {
 
 .landing {
   margin: 0 10rem 4rem;
-  height: 120vh; }
+  height: 140vh; }
   @media (max-width: 37.5em) {
     .landing {
       margin: 0;
-      height: 180vh; } }
+      height: 220vh; } }
   .landing__row {
     display: flex; }
     @media (max-width: 37.5em) {
@@ -432,7 +432,7 @@ body {
       margin: 0 1rem; }
       @media (max-width: 37.5em) {
         .author__icon-link {
-          margin: .4rem; } }
+          margin: 0; } }
     .author__icon-row {
       margin: 4.5rem 72rem 0;
       width: 50%; }

@@ -10,7 +10,7 @@
     &__img {
         width: 3%;
         @include respond(phone) {
-        width: 6%;
+        width: 9%;
            
         }
     }
