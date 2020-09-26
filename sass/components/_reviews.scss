@@ -17,7 +17,7 @@
 
     &__box {
         background-color: $bg-dark;
-        padding: 3rem 0 3rem 2rem;
+        padding: 3rem 2rem;
         position: relative;
         margin: 3rem 2rem;
     }
@@ -34,12 +34,12 @@
     }
 
     &__img {
-        width: 16%;
+        width: 20%;
         margin-right: 2rem;
     }
 
     &__quote {
-        font-size: 1.99rem;
+        font-size: 1.8rem;
         width: 94%;
     }
 

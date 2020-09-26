@@ -92,11 +92,11 @@ body {
 
 .landing {
   margin: 0 10rem 4rem;
-  height: 110vh; }
+  height: 120vh; }
   @media (max-width: 37.5em) {
     .landing {
       margin: 0;
-      height: 155vh; } }
+      height: 180vh; } }
   .landing__row {
     display: flex; }
     @media (max-width: 37.5em) {
@@ -350,7 +350,7 @@ body {
     margin-bottom: 2.5rem; }
   .reviews__box {
     background-color: #f6f8fc;
-    padding: 3rem 0 3rem 2rem;
+    padding: 3rem 2rem;
     position: relative;
     margin: 3rem 2rem; }
   .reviews__icon {
@@ -363,10 +363,10 @@ body {
     font-size: 1.8rem;
     color: white; }
   .reviews__img {
-    width: 16%;
+    width: 20%;
     margin-right: 2rem; }
   .reviews__quote {
-    font-size: 1.99rem;
+    font-size: 1.8rem;
     width: 94%; }
   .reviews__user {
     margin: 2rem 0;
@@ -399,11 +399,11 @@ body {
   background-color: #ed6524;
   text-align: center;
   color: white;
-  height: 100vh;
+  height: 130vh;
   padding: 6rem 0; }
   @media (max-width: 37.5em) {
     .author {
-      height: 110vh; } }
+      height: 127vh; } }
   .author__img {
     width: 11%;
     margin-bottom: 5.6rem; }
@@ -432,7 +432,7 @@ body {
       margin: 0 1rem; }
       @media (max-width: 37.5em) {
         .author__icon-link {
-          margin: .5rem; } }
+          margin: .4rem; } }
     .author__icon-row {
       margin: 4.5rem 72rem 0;
       width: 50%; }
@@ -469,6 +469,9 @@ body {
   color: #7f84b1;
   border-radius: 4px;
   margin-right: 1rem; }
+  @media (max-width: 37.5em) {
+    .email {
+      width: 30rem; } }
 
 ::placeholder {
   padding-left: 2rem; }

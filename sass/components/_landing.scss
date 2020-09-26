@@ -1,9 +1,9 @@
 .landing {
     margin: 0 10rem 4rem;
-    height: 110vh;
+    height: 120vh;
     @include respond(phone) {
        margin:0;
-       height:155vh;
+       height:180vh;
     }
 
     &__row {

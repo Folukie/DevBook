@@ -2,10 +2,10 @@
     background-color: $primary;
     text-align: center;
     color: white;
-    height: 100vh;
+    height: 130vh;
     padding: 6rem 0;
     @include respond (phone){
-       height:110vh;
+       height:127vh;
     }
 
     &__img {
@@ -44,7 +44,7 @@
             color: white;
             margin: 0 1rem;
             @include respond (phone){
-                margin:.5rem;
+                margin:.4rem;
             }
 
         }
