@@ -1,29 +1,29 @@
 .head {
     color: $dark;
-    font-size: 5rem;
+    font-size: 4.2rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 900;
 }
 
 .subhead {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin: 2rem 0 6rem;
     line-height: 1.5;
 }
 
 .span-icon {
     color: $icon;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 .scroll-icon{
     position: fixed;
     bottom:3rem;
     right:1.9rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color:white;
     background-color: $dark;
     border-radius: 50px;
-    padding:1.7rem;
+    padding:1.2rem;
     scroll-behavior: smooth;
     @include respond (phone){
         bottom:3rem;

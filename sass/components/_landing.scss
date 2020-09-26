@@ -1,9 +1,10 @@
 .landing {
     margin: 0 10rem 4rem;
     height: 140vh;
+
     @include respond(phone) {
-       margin:0;
-       height:220vh;
+        margin: 0;
+        height: 150vh;
     }
 
     &__row {
@@ -18,27 +19,30 @@
     &__head {
         width: 70%;
         margin: 5rem 0 2rem;
+
         @include respond(phone) {
-            width:100%;
+            width: 100%;
         }
     }
 
     &__subhead {
         width: 90%;
         color: $light-dark;
-        font-size: 2.44rem;
+        font-size: 1.9rem;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: .05rem;
+
         @include respond(phone) {
-            width:100%;
+            width: 100%;
         }
     }
 
     &__texts {
         width: 90%;
+
         @include respond(phone) {
-            width:100%;
+            width: 100%;
         }
     }
 
@@ -51,7 +55,7 @@
             color: white;
             background-color: $primary;
             width: 20rem;
-            height: 6.4rem;
+            height: 5.8rem;
             border-radius: 50px;
             border: 3px solid $primary;
             font-weight: 700;
@@ -62,7 +66,7 @@
             color: $primary;
             background-color: white;
             width: 20rem;
-            height: 6.6rem;
+            height: 6rem;
             border-radius: 50px;
             border: 3px solid $primary;
             font-weight: 700;
@@ -85,17 +89,20 @@
         background-color: $green;
         color: white;
         border-radius: 100%;
-        padding: 4.6rem 1.5rem;
+        padding: 3rem 1rem;
         text-align: center;
-        width: 16rem;
+        width: 12rem;
         position: absolute;
         right: 2.9rem;
-        top: -4.6rem;
+        top: -6rem;
         z-index: 99;
-        @include respond (phone){
-            padding:3.2rem 1rem;
-            right:2.5rem;
-            width:13rem;
+
+        @include respond (phone) {
+            padding: 3.2rem 1rem;
+            right: 2.5rem;
+            top: -4.6rem;
+
+            width: 13rem;
         }
     }
 
@@ -111,7 +118,7 @@
         font-size: 1.8rem;
         margin: auto;
         display: block;
-        width: 28%;
+        width: 40%;
         padding: 0;
 
         &:hover {

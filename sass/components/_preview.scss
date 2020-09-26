@@ -9,13 +9,13 @@
 
     &__head {
         color: $dark;
-        font-size: 4rem;
+        font-size: 3.3rem;
         font-family: 'Quicksand', sans-serif;
         font-weight: 900;
     }
 
     &__subhead {
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin: 2rem auto ;
         width: 80%;
         line-height: 1.5;
@@ -25,13 +25,13 @@
 }
 
 .email {
-    width: 50rem;
-    height: 7.2rem;
+    width: 35rem;
+    height: 5.7rem;
     border: 1px solid #e3e9f6;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color: #7f84b1;
     border-radius: 4px;
-    margin-right: 1rem;
+    margin-right: .6rem;
     @include respond (phone){
         width:30rem;
     }
@@ -43,13 +43,13 @@
 }
 
 .send {
-    width: 10rem;
-    height: 7rem;
+    width: 8rem;
+    height: 5rem;
     background-color: $primary;
     color: white;
     border-radius: 4px;
     border: 1px solid $primary;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     text-align: center;

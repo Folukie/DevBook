@@ -2,15 +2,15 @@
     background-color: $primary;
     text-align: center;
     color: white;
-    height: 130vh;
-    padding: 6rem 0;
+    height: 110vh;
+    padding: 5rem 0;
     @include respond (phone){
-       height:127vh;
+       height:100vh;
     }
 
     &__img {
-        width: 11%;
-        margin-bottom: 5.6rem;
+        width: 15rem;
+        margin-bottom: 5.4rem;
     }
 
     &__head {
@@ -19,8 +19,8 @@
 
     &__text {
         width: 59%;
-        font-size: 2.1rem;
-        margin: 2rem auto 4rem;
+        font-size: 1.8rem;
+        margin: 1.8rem auto 4rem;
         text-align: left;
         @include respond (phone){
             width:100%;
@@ -29,7 +29,7 @@
 
     &__follow {
         font-family: 'Quicksand', sans-serif;
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
 
@@ -44,13 +44,13 @@
             color: white;
             margin: 0 1rem;
             @include respond (phone){
-                margin:0;
+                margin:.5rem;
             }
 
         }
 
         &-row {
-            margin: 4.5rem 72rem 0;
+            margin: 4rem 53rem 0;
             width: 50%;
             @include respond (phone){
                 width:100%;
