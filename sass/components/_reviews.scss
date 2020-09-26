@@ -1,0 +1,78 @@
+.reviews {
+    margin: 9rem 0;
+
+    &__heading {
+        text-align: center;
+        width: 55%;
+        margin: auto;
+        @include respond (phone){
+            width:100%;
+        }
+    }
+
+    &__row {
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+
+    &__box {
+        background-color: $bg-dark;
+        padding: 3rem 0 3rem 2rem;
+        position: relative;
+        margin: 3rem 2rem;
+    }
+
+    &__icon {
+        background-color: $primary-light;
+        padding: 1.4rem;
+        border-radius: 50px;
+        position: absolute;
+        top: -2rem;
+        right: 50%;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    &__img {
+        width: 16%;
+        margin-right: 2rem;
+    }
+
+    &__quote {
+        font-size: 1.99rem;
+        width: 94%;
+    }
+
+    &__user {
+        margin: 2rem 0;
+        display:flex;
+        @include respond (phone){
+            display:block;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        margin-top: 1.3rem;
+        color: $lighter-dark;
+    }
+
+    &__btn {
+        background-color: $primary;
+        color: white;
+        font-size: 1.9rem;
+        padding: 2rem 5rem;
+        border-radius: 50px;
+        font-weight: 700;
+        display:block;
+        width:17%;
+        margin:auto;
+        &:hover{
+            color:white;
+        }
+        @include respond (phone){
+            width:60%;
+        }
+    }
+}

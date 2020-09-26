@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem=10px 
+   
+    @include respond (tab-land){
+        font-size:56.25%;
+    }
+    @include respond (tab-port){
+        font-size:50%;
+    }
+    
+}
+
+body {
+    font-family: 'Roboto', san-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color:$light-dark;
+    @include respond (phone){
+        margin:auto;
+    }
+}

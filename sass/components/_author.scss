@@ -1,0 +1,63 @@
+.author {
+    background-color: $primary;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    padding: 6rem 0;
+    @include respond (phone){
+       height:110vh;
+    }
+
+    &__img {
+        width: 11%;
+        margin-bottom: 5.6rem;
+    }
+
+    &__head {
+        color: white;
+    }
+
+    &__text {
+        width: 59%;
+        font-size: 2.1rem;
+        margin: 2rem auto 4rem;
+        text-align: left;
+        @include respond (phone){
+            width:100%;
+        }
+    }
+
+    &__follow {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+
+    &__icon {
+        background-color: rgba(0, 0, 0, 0.1);
+        padding:1.5rem;
+        border-radius: 50px;
+        font-size: 2rem;
+
+        &-link {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            @include respond (phone){
+                margin:.5rem;
+            }
+
+        }
+
+        &-row {
+            margin: 4.5rem 72rem 0;
+            width: 50%;
+            @include respond (phone){
+                width:100%;
+                margin:3rem 15rem;
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+.footer{
+    margin:5rem;
+    text-align:center;
+    &__text{
+        color:$light-dark;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.8;
+
+    }
+    &__icon{
+        color:$heart;
+    }
+    &__link{
+        color: $dark;
+        &:hover{
+            color:$dark;
+        }
+    }
+}
