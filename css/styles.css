@@ -96,7 +96,7 @@ body {
   @media (max-width: 37.5em) {
     .landing {
       margin: 0;
-      height: 220vh; } }
+      height: 210vh; } }
   .landing__row {
     display: flex; }
     @media (max-width: 37.5em) {
