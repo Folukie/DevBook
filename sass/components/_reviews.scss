@@ -21,6 +21,10 @@
         padding: 3rem 2rem;
         position: relative;
         margin: 3rem 2rem;
+        @include respond (phone){
+           padding:2rem 1rem;
+           margin:auto;
+        }
     }
 
     &__icon {
